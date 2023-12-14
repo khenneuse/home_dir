@@ -34,7 +34,7 @@ autoload -Uz compinit && compinit
 export PATH="$HOME/bin:$PATH:$HOME/google-cloud-sdk/bin:/opt/homebrew/opt/libpq/bin"
 
 export PGPASSFILE='$HOME/.pgpass'
-export GH_REGISTRY_TOKEN='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'
+export GH_REGISTRY_TOKEN='<TOKEN>'
 
 # Personal aliases and functions
 [ -f $HOME/.personal_aliases ] && . $HOME/.personal_aliases
