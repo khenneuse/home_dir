@@ -1,0 +1,22 @@
+# Useful
+function shitcan() {
+    $* 2> /dev/null
+}
+
+function port() {
+  lsof -n -i:$1 | grep LISTEN
+}
+
+# Kill process running on a port
+function killport() {
+ kill `lsof -i:$1 -t`
+}
+
+function files-on-branch() {
+  git diff --name-only $1 $(git merge-base $1 dev)
+}
+
+# lkZLs7GiJY8o0DzfwRs7
+function public-link() {
+    echo "http://localhost:3000/public/requests/$1?viewerPublicToken=$2"
+}

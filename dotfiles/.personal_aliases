@@ -1,0 +1,8 @@
+# some more ls aliases
+alias ll='ls -l'
+alias la='ls -A'
+alias ls='ls -CF'
+
+# personal favorites
+alias grep='grep --color --extended-regexp'
+alias dps='docker ps -a --format "table {{.ID}}\t{{.Names}}\t{{.Image}}"'

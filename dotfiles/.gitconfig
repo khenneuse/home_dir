@@ -1,0 +1,50 @@
+[user]
+	email = kent@valdera.com
+	name = Kent Henneuse
+[color]
+	ui = true
+[merge]
+	tool = ediff
+[mergetool "ediff"]
+    cmd = emacs --eval \"\
+(progn\
+  (add-to-list 'default-frame-alist '(fullscreen . maximized))\
+  (defun ediff-write-merge-buffer ()\
+    (let ((file ediff-merge-store-file))\
+      (set-buffer ediff-buffer-C)\
+      (write-region (point-min) (point-max) file)\
+      (message \\\"Merge buffer saved in: %s\\\" file)\
+      (set-buffer-modified-p nil)\
+      (sit-for 1)))\
+  (setq ediff-quit-hook 'kill-emacs\
+        ediff-quit-merge-hook 'ediff-write-merge-buffer)\
+  (ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\"\
+                                   \\\"$BASE\\\" nil \\\"$MERGED\\\"))\"
+[core]
+	excludesfile = /Users/kent/.gitignore
+	autocrlf = input
+[push]
+	default = current
+[alias]
+	ci = commit
+	co = checkout
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lg1 = log --color --pretty=format:'%Cred%h%Creset - %s' --abbrev-commit
+	st = status
+	taglist = log --reverse --format=%h%d --tags --no-walk
+	up = pull --rebase
+	done = ! git remote update --prune && git co main && git pull && git branch --merged | grep  -v -E '\\*|main' | xargs -n 1 git branch -d
+[remote "origin"]
+	prune = true
+[url "https://github.com/"]
+[url "https://github.com/"]
+	insteadOf = ssh://git@github.com/
+	insteadOf = git@github.com:
+[credential]
+	helper = osxkeychain
+[pull]
+	rebase = false
+[pager]
+	branch =
+[init]
+	defaultBranch = main
