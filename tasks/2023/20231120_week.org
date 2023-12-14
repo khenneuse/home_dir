@@ -1,0 +1,41 @@
+#+TITLE: Work for the week of 2023-11-20
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+- [ ] Write migration for newRequest
+- [ ] Fix draft submissions
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [X] kent/add_quoteTriggerLogging - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1102][PR 1102]]
+- [X] kent/APP-2422_add_to_users - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1108][PR 1108]]
+- [X] kent/APP-2422_add_notification_setting - [[https://github.com/Valdera-Inc/valdera-web/pull/2281][PR 2281]]
+- [X] kent/APP-2430_add_initial_test - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1111][PR 1111]]
+
+* PRs in review
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/set_createdAt_correctly_on_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/958][PR 958]]
+- [ ] kent/APP-2430_rm_supplierPreferences - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1112][PR 1112]]
+- [ ] kent/APP-2430_rm_other_fields - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1113][PR -1113]]
+- [ ] kent/APP-2430_request_inbox_thunk - [[https://github.com/Valdera-Inc/valdera-web/pull/2283][PR 2283]]
+- [ ] kent/APP-2430_modify_names - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1114][PR 1114]]
+- [ ] kent/APP-2430_throw_on_error_to_backend - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1115][PR 1115]]
+- [ ]
+- [ ] kent/APP-2279_rm_trigger - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/996][PR 996]]
+- [ ] kent/APP-2279_rm_feature_flag - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/999][PR 999]]
+- [ ] kent/APP-2279_cleanup - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1000][PR 1000]]
+
+
+* Work in Progress
+- [ ]

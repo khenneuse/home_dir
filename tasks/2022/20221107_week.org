@@ -1,0 +1,65 @@
+#+TITLE: Work for the week of 2022-11-07
+
+* To Do Items
+- [ ] Learn about Retool
+- [ ] Learn about React Final Form
+- [X] Learn Cloudbuild
+- [ ] Learn Algolia
+- [ ] Learn Netlify
+- [ ] Learn Common Module export and require
+- [ ] Learn Firebase Emulator
+- [ ] Learn Firebase (set { merge: true })
+- [ ] Upgrade Firebase
+- [ ] Upgrade Next.js
+- [X] Do a clean up pass of imports after all headers changed
+- [ ] Write tests for the Current Pricing changes.
+- [ ] Change the H5 for the confirmation to not be uppercase. span not h5
+- [ ] Investigate the password change in staging
+- [X] Talk to Krishnab about git diff staging..dev -- src/forms/SupplierQuoteForm/validator.js
+
+* On-boarding doc updates
+** Firebase Permissions
+** Login Setup Buyer/Supplier walk through
+** Make yourself an admin admin.dev.valdera.com
+** Login to Figma and get an account from Susy
+** brew install gh
+** VS Code extenstions
+*** Firebase
+*** TODO Editor Config
+*** TODO Code Spell
+*** TODO Git Lens
+** dev.valdera.com -> localhost:3000
+** TODO brew install java - Needed by firebase emulator
+
+* For Discusion
+- [ ] Verify that thin font is actually lighter
+- [ ] h2 use of thin in src/components/presentational/StaticQuoteView/Section.js
+- [ ] do we remove styles.italic and styles.thin from the components scss file?
+
+  Find the one thin and take screenshot for Susy
+  split out each of the styles using a italic-thin approach
+  QA the first entries locally and learn to find the components in the UI
+
+* PR merged
+- [X] fix/clean_up_header_components - [[https://github.com/Valdera-Inc/valdera-web/pull/1163][PR 1163]]
+- [X] fix/confirmation_styling - [[https://github.com/Valdera-Inc/valdera-web/pull/1172][PR 1172]]
+- [ ] fix/clean_up_header_components_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/1164][PR 1164]]
+
+* PRs in review
+- [ ] feat/disclosure_warning_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1176][PR 1176]]
+- [ ] feat/disclosure_warning_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/1179][PR 1179]]
+- [ ] fix/rm_productRequests_rule - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/414][PR 414]]
+
+* Work in Progress
+- [ ] fix/sticky_quote_comparison - [[https://github.com/Valdera-Inc/valdera-web/pull/1169][PR 1169]]
+- [ ]
+
+
+npm run reader -- --collection=organizations --servicekey=~/.ssh/development-8a179-firebase-adminsdk-x04wd-08656ba4c9.json
+
+[dev] Fix up imports
+
+With the header components collapsed we can remove the direct reference to
+the components. This cleans the imports a little for a nicer style.
+Doing this spotted one place where we had not collapsed all the entries.
+So we fixed that instance.

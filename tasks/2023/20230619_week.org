@@ -1,0 +1,95 @@
+#+TITLE: Work for the week of 2023-06-19
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [X] Check InputWithChipsInside, Select and SelectOptions,
+  SmartFilter for useOnClickOutside issues
+- [X] Test nofications to fix the problems of opening links
+- [X] General testing in the App.
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+- [ ] Read up on iFrames and CSP to get Intercomm working
+- [ ] Test the healthcheck changes on a dev build
+
+* Learning
+
+* PR merged
+- [X] kent/INFRA-349_lint_migrations - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/765][PR 765]]
+- [X] kent/INFRA-350_convert_sample_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/755][PR 755]]
+- [X] kent/INFRA-350_convert_wikipedia - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/756][PR 756]]
+- [X] kent/INFRA-350_convert_pubchem - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/757][PR 757]]
+- [ ] kent/INFRA-350_convert_catalogAlgoliaSync - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/758][PR 758]]
+- [X] kent/mv_batcher - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/759][PR 759]]
+- [X] kent/rm_doesOrgWithNameExist - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/760][PR 760]]
+- [ ] kent/INFRA-350_convert_utils_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/761][PR 761]]
+- [X] kent/INFRA-350_convert_userOrgManagement - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/762][PR 762]]
+- [X] kent/INFRA-631_rm_recharts - [[https://github.com/Valdera-Inc/valdera-internal/pull/304][PR 304]]
+- [X] kent/INFRA-622_another_js - [[https://github.com/Valdera-Inc/internal-backend/pull/337][PR 337]]
+- [X] kent/INFRA-646_add_security_headers - [[https://github.com/Valdera-Inc/valdera-web/pull/1808][PR 1808]]
+- [X] kent/INFRA-647_add_initial_cmporg_type - [[https://github.com/Valdera-Inc/internal-backend/pull/338][PR 338]]
+- [X] kent/INFRA-647_add_meta_cmporg - [[https://github.com/Valdera-Inc/internal-backend/pull/339][PR 339]]
+- [X] kent/INFRA-632_patching_next_rechart - [[https://github.com/Valdera-Inc/valdera-web/pull/1805][PR 1805]]
+- [X] kent/INFRA-631_fix_remaining_sec_issues - [[https://github.com/Valdera-Inc/valdera-internal/pull/305][PR 305]]
+- [X] kent/INFRA-644_csp_headers_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1812][PR 1812]]
+- [X] kent/INFRA-644_csp_headers_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/1813][PR 1813]]
+- [X] kent/INFRA-632_update_next_12 - [[https://github.com/Valdera-Inc/valdera-web/pull/1795][PR 1795]]
+- [X] kent/20230622_move_test - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/782][PR 782]]
+- [X] kent/INFRA-350_convert_util_inboxes_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/784][PR 784]]
+- [X] kent/catch_build_id_failure - [[https://github.com/Valdera-Inc/valdera-web/pull/1826][PR 1826]]
+- [X] kent/BUGS-53_add_logging - [[https://github.com/Valdera-Inc/internal-backend/pull/343][PR 343]]
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-350_convert_getRequest - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/775][PR 775]]
+- [ ] kent/use_productRequest_dal - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/776][PR 776]]
+
+* Work in Progress
+- [ ] kent/INFRA-350_convert_inboxes_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/777][PR 777]]
+- [ ] kent/INFRA-350_convert_inboxes_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/778][PR 778]]
+- [ ] kent/INFRA-350_convert_internal_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/779][PR 779]]
+- [ ] kent/INFRA-350_convert_quotes_api - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/783][PR 783]]
+- [ ] kent/INFRA-350_convert_util_inboxes_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/785][PR 785]]
+- [ ] kent/INFRA-350_convert_util_inboxes_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/786][PR 786]]
+- [ ] kent/INFRA-350_convert_internal_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/787][PR 787]]
+- [ ] kent/INFRA-350_convert_internal_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/788][PR 788]]
+- [ ] kent/INFRA-350_convert_organizations - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/789][PR 789]]
+- [ ] kent/INFRA-350_convert_accountTriggers - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/790][PR 790]]
+- [ ]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+http://localhost:3000/buyer/requests/O6CvKDpbQwtprOgzCzRo/quotes/p7qqOxWyzXZAPbf9n0qd
+
+
+INFRA-350: Convert api/organizations to TypeScript
+
+Converted all the files in the api/organizations directory to be in
+TypeScript
+
+https://valdera.atlassian.net/browse/INFRA-350

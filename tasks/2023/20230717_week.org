@@ -1,0 +1,77 @@
+#+TITLE: Work for the week of 2023-07-17
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+* Learning
+
+* PR merged
+- [X] kent/INFRA-658_GET_SNAP_DATA_types_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/842][PR 842]]
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [X] kent/INFRA-675_implement_searchQuotes - [[https://github.com/Valdera-Inc/valdera-web/pull/1900][PR 1900]]
+- [X] kent/INFRA-675_use_searchQuotes - [[https://github.com/Valdera-Inc/valdera-web/pull/1902][PR 1902]]
+- [X] kent/INFRA-675_flag_use_inbox_quotes - [[https://github.com/Valdera-Inc/valdera-web/pull/1921][PR 1921]]
+- [X] kent/INFRA-675_core_of_quotes_lookup - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/851][PR 851]]
+- [X] kent/INFRA-675_implement_buyer_lookup - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/853][PR 853]]
+- [X] kent/INFRA-675_implement_buyer_lookup_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/856][PR 856]]
+- [X] kent/INFRA-675_implement_buyer_lookup_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/857][PR 857]]
+- [X] kent/INFRA-675_implement_buyer_lookup_4 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/858][PR 858]]
+- [X] kent/EIT-600_move_sf_to_tab - [[https://github.com/Valdera-Inc/valdera-internal/pull/313][PR 313]]
+- [X] kent/add_debugging_help - [[https://github.com/Valdera-Inc/valdera-internal/pull/314][PR 314]]
+- [X] kent/INFRA-654_step3_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/848][PR 848]]
+- [ ] kent/INFRA-654_step4_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/850][PR 850]]
+- [X] kent/EIT-601_add_multiaddress - [[https://github.com/Valdera-Inc/valdera-internal/pull/315][PR 315]]
+- [X] kent/INFRA-675_fix_archive_bug_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1945][PR 1945]]
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-665_1_use_stored_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/837][PR 837]]
+
+* Work in Progress
+- [ ] revert-1937-revert-1902-kent/INFRA-675_use_searchQuotes - [[https://github.com/Valdera-Inc/valdera-web/pull/1938][PR 1938]]
+- [ ]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+Dev Request with multiple quotes cGTEQvFeYrrnEjIJE8WO
+Quotes:
+  1vXvKGeH43VVUEMt0z28 --> orgDisposition
+  6Dthcru7HMwpFGFSJBZV
+  mZ023xb6NhWwOKChFiU0 --> Declined
+  rrqlqa0V8mOuePiqichM
+  sW3TGL5AexCb3V7miKze
+
+
+INFRA-654: Convert tests from Javascript to TypeScript - Step 4
+
+Convert tests so we are consistent in our code.
+
+https://valdera.atlassian.net/browse/INFRA-654

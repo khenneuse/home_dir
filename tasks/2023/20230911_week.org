@@ -1,0 +1,102 @@
+#+TITLE: Work for the week of 2023-09-11
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [ ] kent/api_buyer_inbox - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/874][PR 874]]
+- [X] kent/INFRA-965_tool_fix_buyer_inbox - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/967][PR 967]]
+- [X] kent/INFRA-965_deploy_tool - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/969][PR 969]]
+- [X] kent/logging_change_20230912 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/971][PR 971]]
+- [X] kent/APP-1993_pre_cleanup - [[https://github.com/Valdera-Inc/valdera-web/pull/2065][PR 2065]]
+- [X] kent/APP-1993_add_order_purpose - [[https://github.com/Valdera-Inc/valdera-web/pull/2066][PR 2066]]
+- [X] kent/APP-1993_add_order_purpose - [[https://github.com/Valdera-Inc/valdera-components/pull/175][PR 175]]
+- [X] kent/APP-1993_backfill_order_purpose - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/965][PR 965]]
+- [X] kent/APP-1993_add_purpose_to_details - [[https://github.com/Valdera-Inc/valdera-internal/pull/421][PR 421]]
+- [X] kent/APP-1993_show_purpose_column - [[https://github.com/Valdera-Inc/valdera-internal/pull/422][PR 422]]
+- [X] kent/APP-1993_purpose_quick_request - [[https://github.com/Valdera-Inc/valdera-web/pull/2074][PR 2074]]
+- [X] kent/APP-1993_cleanup_constant_copy - [[https://github.com/Valdera-Inc/valdera-internal/pull/423][PR 423]]
+- [X] kent/simplify_quote_inbox_tool - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/974][PR 974]]
+- [X] kent/APP-1993_skip_notifications - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/975][PR 975]]
+- [X] kent/APP-1993_fix_missing_error_icon - [[https://github.com/Valdera-Inc/valdera-web/pull/2088][PR 2088]]
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/set_createdAt_correctly_on_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/958][PR 958]]
+- [ ] kent/remove_use_quote_inbox_flag - [[https://github.com/Valdera-Inc/valdera-web/pull/2080][PR 2080]]
+
+* Work in Progress
+- [ ] kent/quick_request_cleanup_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/1999][PR 1999]]
+- [ ]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+Quote Testing - For requestId BvzfhvWKqANmaUpYsj7q
+o0NKCK0a7B3H67cknoWM - Madison Wisconsin (in counteroffer) - supplier 2
+5tYfPU0h1mPvkAeEigH6 - can deliver - supplier 2
+MDLGCWZvZcHwD1s64gc5 - can deliver - supplier 3
+z5aZ6FQ4NYXeL5WQppKh - Pier 39 Oakland - supplier 4
+g6hY95CUadZSGiFD3ffK - Oakland Transit Yard (in counteroffer) - supplier 4
+XLvDRu5YTiO0bFLWAxj1 - can deliver - supplier 1
+
+
+declined quote UCruptaeUeNT909Bz6nu
+accepted quote MiHAvui9fxV6hSuVz0xq
+
+
+bOiLWoQnwuLI3ds78bu4 request
+
+admin    fRvBllVJkEQRc6MzelxRXXTTd152
+buyer1   kj6QzPf8yZMqMkOrkh3BW1gjteL2
+buyer2   2iIt6SvHp4Rr7IvCwcWjiLaXBbu2
+
+
+
+sjJOYCTt9CJs94L1X7p3
+
+BvzfhvWKqANmaUpYsj7q
+
+wBHRf1GBm3kWIVVMS5NN - Metito
+vUJxsEPrmB7skjAx98n2 - Toray
+q2UqgKteqtIztv4sdIP5 - Toray
+tpa - Toray
+JQgoF6dqP9VbSjTgZcIa - Harrys
+vUJxsEPrmB7skjAx98n2 - Zoltek
+
+
+request 3fEw3YnDvu87QwD4dJtb missing from buyerInboxes/yHQgyV1Ko0ehRIafW4cWajVLbz42
+request cKfC0xoHQRLTDEqaQaGY missing from buyerInboxes/yHQgyV1Ko0ehRIafW4cWajVLbz42
+request 8NExXMy7q6K3UnQk5iZG missing from buyerInboxes/yHQgyV1Ko0ehRIafW4cWajVLbz42

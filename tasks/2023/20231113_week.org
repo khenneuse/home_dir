@@ -1,0 +1,43 @@
+#+TITLE: Work for the week of 2023-11-13
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+- [ ] Write migration for newRequest
+- [ ] Fix draft submissions
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [X] kent/APP-2291_fix_save_of_draft - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1096][PR 1096]]
+- [X] kent/INFRA-983_add_tests_getSampleRequested - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1094][PR 1094]]
+- [X] kent/INFRA-983_rm_profile_getSampleRequested - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1095][PR 1095]]
+- [X] kent/INFRA-983_rm_profile_supplierAttachments - [[https://github.com/Valdera-Inc/valdera-web/pull/2246][PR 2246]]
+- [X] kent/BUGS-367_use_join_on_array - [[https://github.com/Valdera-Inc/internal-backend/pull/375][PR 375]]
+- [X] kent/APP-2522_fix_draft_save - [[https://github.com/Valdera-Inc/valdera-web/pull/2248][PR 2248]]
+- [X] kent/deploy_tool_add_logs - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1098][PR 1098]]
+- [X] kent/INFRA-983_fix_undefined - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1103][PR 1103]]
+- [X] kent/add_types_and_logs_supplier_inbox - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1099][PR 1099]]
+- [X] kent/APP-2422_add_logging - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1100][PR 1100]]
+- [ ] kent/add_quoteTriggerLogging - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1102][PR 1102]]
+
+* PRs in review
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/set_createdAt_correctly_on_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/958][PR 958]]
+- [ ]
+- [ ] kent/APP-2279_rm_trigger - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/996][PR 996]]
+- [ ] kent/APP-2279_rm_feature_flag - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/999][PR 999]]
+- [ ] kent/APP-2279_cleanup - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1000][PR 1000]]
+
+
+* Work in Progress
+- [ ]

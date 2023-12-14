@@ -1,0 +1,45 @@
+#+TITLE: Work for the week of 2023-12-11
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+- [ ] Fix draft submissions on quotes
+- [ ] Ask about Priority alarm with Zenduty
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [X] kent/BUGS-401_add_logging - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1132][PR 1132]]
+- [X] kent/APP-2425_add_flatten_units - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1133][PR 1133]]
+- [X] kent/APP-2425_modify_convertCurrency - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1134][PR 1134]]
+- [X] kent/fix_use_of_logout - [[https://github.com/Valdera-Inc/valdera-tests/pull/62][PR 62]]
+- [X] kent/use_performance_now - [[https://github.com/Valdera-Inc/valdera-web/pull/2325][PR 2325]]
+- [ ] kent/APP-2425_standardizeQuotePricePerUnit - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1135][PR 1135]]
+
+* PRs in review
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/set_createdAt_correctly_on_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/958][PR 958]]
+- [ ] kent/APP-2425_flip_setting_rates - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1137][PR 1137]]
+- [ ] kent/APP-2425_convertUnitsAndCurrencies - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1138][PR 1138]]
+- [ ] kent/APP-2425_add_getBestQuoteId - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1139][PR 1139]]
+- [ ] kent/APP-2425_move_get_currency_rates - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1140][PR 1140]]
+- [ ] revert-1134-kent/APP-2425_modify_convertCurrency - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1142][PR 1142]]
+- [ ] kent/APP-2425_modify_convertCurrency_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1143][PR 1143]]
+- [ ]
+- [ ]
+- [ ] kent/APP-2279_rm_trigger - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/996][PR 996]]
+- [ ] kent/APP-2279_rm_feature_flag - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/999][PR 999]]
+- [ ] kent/APP-2279_cleanup - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1000][PR 1000]]
+
+
+* Work in Progress
+- [ ]

@@ -1,0 +1,54 @@
+#+TITLE: Work for the week of 2023-11-06
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+- [ ] Write migration for newRequest
+- [ ] Fix draft submissions
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [X] kent/api_buyer_inbox - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/874][PR 874]]
+- [X] revert-1071-kent/add_ts_paths - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1089][PR 1089]]
+- [X] kent/INFRA-983_flag_storage_profiles - [[https://github.com/Valdera-Inc/valdera-web/pull/2209][PR 2209]]
+- [X] kent/INFRA-983_breakup_samples_utils - [[https://github.com/Valdera-Inc/valdera-web/pull/2211][PR 2211]]
+- [X] kent/INFRA-983_scrub_more_refs_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1085][PR 1085]]
+- [X] kent/INFRA-983_use_ff_rm_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1090][PR 1090]]
+- [X] kent/INFRA-983_rm_profile_saveQuotes - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1091][PR 1091]]
+- [X] kent/INFRA-983_extract_getOrg - [[https://github.com/Valdera-Inc/valdera-web/pull/2214][PR 2214]]
+- [X] kent/INFRA-983_rm_profile_sample_attachments - [[https://github.com/Valdera-Inc/valdera-web/pull/2215][PR 2215]]
+- [X] kent/INFRA-983_rename_other_getSampleRequested - [[https://github.com/Valdera-Inc/valdera-web/pull/2216][PR 2216]]
+- [X] kent/INFRA-983_populateSampleRequest - [[https://github.com/Valdera-Inc/valdera-web/pull/2225][PR 2225]]
+- [X] kent/INFRA-983_refactor_deleteNegotiationDocument_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/2226][PR 2226]]
+- [X] kent/INFRA-983_refactor_deleteNegotiationDocument_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/2228][PR 2228]]
+- [X] kent/INFRA-983_introduce_ldclient - [[https://github.com/Valdera-Inc/valdera-web/pull/2237][PR 2237]]
+- [X] kent/INFRA-983_rm_flag_plumbing_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/2238][PR 2238]]
+- [X] kent/INFRA-983_rm_flag_plumbing_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/2239][PR 2239]]
+- [X] kent/BUGS-353_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1093][PR 1093]]
+- [X] kent/INFRA-983_anonymize_sample_bug - [[https://github.com/Valdera-Inc/valdera-web/pull/2242][PR 2242]]
+
+* PRs in review
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/set_createdAt_correctly_on_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/958][PR 958]]
+- [ ] kent/INFRA-983_add_tests_getSampleRequested - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1094][PR 1094]]
+- [ ] kent/INFRA-983_rm_profile_getSampleRequested - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1095][PR 1095]]
+- [ ] kent/INFRA-983_rm_profile_supplierAttachments - [[https://github.com/Valdera-Inc/valdera-web/pull/2246][PR 2246]]
+- [ ] kent/APP-2291_fix_save_of_draft - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1096][PR 1096]]
+- [ ]
+- [ ] kent/APP-2279_rm_trigger - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/996][PR 996]]
+- [ ] kent/APP-2279_rm_feature_flag - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/999][PR 999]]
+- [ ] kent/APP-2279_cleanup - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1000][PR 1000]]
+
+
+* Work in Progress
+- [ ]

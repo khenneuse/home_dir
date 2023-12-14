@@ -1,0 +1,42 @@
+#+TITLE: Work for the week of 2023-12-04
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+- [ ] Fix draft submissions on quotes
+- [X] Make netlify build on every branch
+- [ ] Ask about Priority alarm with Zenduty
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [X] kent/APP-2575_update_certifications - [[https://github.com/Valdera-Inc/valdera-web/pull/2295][PR 2295]]
+- [X] kent/APP-2574_disable_if_no_org_certs - [[https://github.com/Valdera-Inc/valdera-web/pull/2296][PR 2296]]
+- [X] kent/INFRA-1125_add_dd_logging - [[https://github.com/Valdera-Inc/valdera-web/pull/2305][PR 2305]]
+- [X] kent/INFRA-1125_move_to_call_api_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/2306][PR 2306]]
+- [X] kent/INFRA-1125_move_to_call_api_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/2307][PR 2307]]
+- [X] kent/INFRA-1125_move_to_call_api_3 - [[https://github.com/Valdera-Inc/valdera-web/pull/2308][PR 2308]]
+- [X] kent/INFRA-1125_move_to_call_api_4 - [[https://github.com/Valdera-Inc/valdera-web/pull/2309][PR 2309]]
+- [X] kent/INFRA-1125_fix_csp_for_dd - [[https://github.com/Valdera-Inc/valdera-web/pull/2310][PR 2310]]
+- [X] kent/INFRA-1125_log_resource_duration - [[https://github.com/Valdera-Inc/valdera-web/pull/2311][PR 2311]]
+
+* PRs in review
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/set_createdAt_correctly_on_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/958][PR 958]]
+- [ ]
+- [ ] kent/APP-2279_rm_trigger - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/996][PR 996]]
+- [ ] kent/APP-2279_rm_feature_flag - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/999][PR 999]]
+- [ ] kent/APP-2279_cleanup - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1000][PR 1000]]
+
+
+* Work in Progress
+- [ ]

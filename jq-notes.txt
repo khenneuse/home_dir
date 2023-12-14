@@ -1,0 +1,8 @@
+# Raw output
+jq -r .     Drops the double quotes
+
+# Concatenate two top level items
+jq '(.level + ":" + .message)'
+
+# Ignoring the first lines
+<cmd> | tail -n +3 | jq -r '(.level + ":" + .message)'

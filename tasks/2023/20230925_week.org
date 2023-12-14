@@ -1,0 +1,39 @@
+#+TITLE: Work for the week of 2023-09-25
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [ ] kent/api_buyer_inbox - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/874][PR 874]]
+- [X] kent/APP-2297_fix_document_change - [[https://github.com/Valdera-Inc/valdera-web/pull/2111][PR 2111]]
+- [X] kent/APP-2332_fix_z_index - [[https://github.com/Valdera-Inc/valdera-web/pull/2133][PR 2133]]
+- [X] kent/APP-2357_handle_deleted_qoutes - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/984][PR 984]]
+
+* PRs in review
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/set_createdAt_correctly_on_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/958][PR 958]]
+
+
+
+* Work in Progress
+- [ ] kent/quick_request_cleanup_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/1999][PR 1999]]
+- [ ]
+
+
+* Branches to remove
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ]
+
+
+Suppler

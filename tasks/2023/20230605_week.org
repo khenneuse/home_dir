@@ -1,0 +1,124 @@
+#+TITLE: Work for the week of 2023-06-05
+
+* Completed
+
+* To Do Items
+- [ ] Make quote.casNumbers.checked and .value optional or allow both shapes
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+* Learning
+
+
+* PR merged
+- [X] kent/INFRA-299_add_defaulting_4 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/699][PR 699]]
+- [X] kent/INFRA-299_add_defaulting_supplierPrefs - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/700][PR 700]]
+- [X] kent/INFRA-299_add_defaulting_mostUpToDateRequest - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/701][PR 701]]
+- [X] kent/INFRA-299_add_defaulting_currentPriceToBeat - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/702][PR 702]]
+- [X] kent/INFRA-300_add_defaulting_certifications - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/703][PR 703]]
+- [X] kent/INFRA-300_add_defaulting_arrays - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/704][PR 704]]
+- [X] kent/implement_ld_client - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/709][PR 709]]
+- [X] kent/add_integration_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/710][PR 710]]
+- [X] kent/INFRA-300_deleteProductRequestById_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/716][PR 716]]
+- [X] kent/INFRA-300_deleteProductRequestById_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/717][PR 717]]
+- [X] kent/INFRA-305_fix_issues_with_migration - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/748][PR 748]]
+- [X] kent/fix_deployment_error - [[https://github.com/Valdera-Inc/internal-backend/pull/286][PR 286]]
+- [X] kent/convert_to_ts - [[https://github.com/Valdera-Inc/internal-backend/pull/285][PR 285]]
+- [X] kent/INFRA-320_build_one_flow_as_ts - [[https://github.com/Valdera-Inc/internal-backend/pull/287][PR 287]]
+- [X] kent/INFRA-320_cmporgs_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/289][PR 289]]
+- [X] kent/INFRA-320_cmporgs_2 - [[https://github.com/Valdera-Inc/internal-backend/pull/290][PR 290]]
+- [X] kent/INFRA-320_cmporgs_3 - [[https://github.com/Valdera-Inc/internal-backend/pull/291][PR 291]]
+- [X] kent/INFRA-320_salesforce_convert_ts - [[https://github.com/Valdera-Inc/internal-backend/pull/288][PR 288]]
+- [X] kent/INFRA-320_misc_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/292][PR 292]]
+- [X] kent/INFRA-320_supplierPipeline_convert_ts - [[https://github.com/Valdera-Inc/internal-backend/pull/293][PR 293]]
+- [X] kent/INFRA-320_fix_typing_catch - [[https://github.com/Valdera-Inc/internal-backend/pull/295][PR 295]]
+- [X] kent/copy_snap_for_migrations - [[https://github.com/Valdera-Inc/internal-backend/pull/296][PR 296]]
+- [X] kent/INFRA-320_fix_tsc_error - [[https://github.com/Valdera-Inc/internal-backend/pull/299][PR 299]]
+- [X] kent/increase_machine_size - [[https://github.com/Valdera-Inc/internal-backend/pull/298][PR 298]]
+- [X] kent/INFRA-300_createProductRequest - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/718][PR 718]]
+- [X] kent/INFRA-300_test_feature_flag - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/749][PR 749]]
+- [X] kent/INFRA-320_middleware - [[https://github.com/Valdera-Inc/internal-backend/pull/300][PR 300]]
+- [X] kent/INFRA-320_api_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/301][PR 301]]
+- [X] kent/INFRA-320_api_2 - [[https://github.com/Valdera-Inc/internal-backend/pull/302][PR 302]]
+- [X] kent/INFRA-320_add_warn_explicit_any - [[https://github.com/Valdera-Inc/internal-backend/pull/307][PR 307]]
+- [X] kent/INFRA-320_add_types_snap - [[https://github.com/Valdera-Inc/internal-backend/pull/303][PR 303]]
+- [X] kent/INFRA-320_add_simple_types_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/312][PR 312]]
+- [X] kent/INFRA-320_add_simple_types_2 - [[https://github.com/Valdera-Inc/internal-backend/pull/310][PR 310]]
+- [X] kent/INFRA-320_add_simple_types_3 - [[https://github.com/Valdera-Inc/internal-backend/pull/311][PR 311]]
+- [X] kent/INFRA-320_sf_connection_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/313][PR 313]]
+- [X] kent/INFRA-320_sf_connection_2 - [[https://github.com/Valdera-Inc/internal-backend/pull/314][PR 314]]
+- [X] kent/INFRA-320_firebase_admin - [[https://github.com/Valdera-Inc/internal-backend/pull/315][PR 315]]
+- [X] kent/rm_unused_file - [[https://github.com/Valdera-Inc/internal-backend/pull/316][PR 316]]
+- [ ] kent/INFRA-320_use_account_string_union - [[https://github.com/Valdera-Inc/internal-backend/pull/317][PR 317]]
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/refactor_queryByParentCmpOrgId_map_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/318][PR 318]]
+- [ ] kent/refactor_queryByParentCmpOrgId_map_2 - [[https://github.com/Valdera-Inc/internal-backend/pull/319][PR 319]]
+- [ ] kent/refactor_queryByParentCmpOrgId_map_3 - [[https://github.com/Valdera-Inc/internal-backend/pull/320][PR 320]]
+- [ ] kent/INFRA-320_move_integration_tests - [[https://github.com/Valdera-Inc/internal-backend/pull/321][PR 321]]
+- [ ] kent/INFRA-320_move_tests_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/322][PR 322]]
+- [ ] kent/INFRA-320_move_tests_2 - [[https://github.com/Valdera-Inc/internal-backend/pull/323][PR 323]]
+- [ ] kent/INFRA-320_move_tests_3 - [[https://github.com/Valdera-Inc/internal-backend/pull/324][PR 324]]
+
+export function GET_SNAP_ID(snap: DocumentSnapshot) {
+export function GET_DATA_FROM_SNAP_DOCS<Type>(snap: QuerySnapshot<Type>) {
+export function GET_SNAP_DATA_WITHOUT_ID<Type>(snap: DocumentSnapshot<Type>) {
+
+
+functions/src/api/searchAltTerms.ts if(!search) return null; and test
+functions/src/api/cmpOrgs/parenter/parentingAllowed.ts add if (children) and test
+
+functions/src/supplierPipeline/utils/enrichSupplier.ts ask Andrew how
+to handle a null being returned from getSupplierDocData
+
+
+
+* Work in Progress
+---- Pull these apart into stages or maybe just the removal of types on the
+problem calls.
+- [ ] kent/INFRA-320_filter_snaps - [[https://github.com/Valdera-Inc/internal-backend/pull/306][PR 306]]
+
+
+- [ ] ~/tmp/StaticRequestPageView.patch to hand INFRA-29 add attachments and existingSpecificationsDocuments
+- [ ] kent/RFD-1662_require_some_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1660][PR 1660]]
+- [ ] kent/RFD-1655_base_request_meta_hse - [[https://github.com/Valdera-Inc/valdera-web/pull/1665][PR 1665]]
+
+Needs a fix on the look up of the requestId from the inbox back to the
+full request
+- [ ] kent/fix_error_with_draft_button_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1686][PR 1686]]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+http://localhost:3000/buyer/requests/O6CvKDpbQwtprOgzCzRo/quotes/p7qqOxWyzXZAPbf9n0qd
+
+
+INFRA-320: Move test files to TypeScript - Batch 3
+
+Moving the current tests to be in TypeScript so that we can eventually
+set allowJs to false in tsconfig.json
+
+https://valdera.atlassian.net/browse/INFRA-320

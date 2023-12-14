@@ -1,0 +1,108 @@
+#+TITLE: Work for the week of 2023-08-21
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [ ] kent/api_buyer_inbox - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/874][PR 874]]
+- [X] kent/INFRA-682_timestamp_fix_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/925][PR 225]]
+- [X] kent/APP-2261_use_onCreate - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/927][PR 927]]
+- [X] kent/APP-2261_fix_error - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/928][PR 928]]
+- [X] kent/INFRA-682_fix_data_issues - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/926][PR 926]]
+- [X] kent/INFRA-682_build_quote_inbox_on_save - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/929][PR 929]]
+- [X] kent/INFRA-682_use_trigger - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/931][PR 931]]
+- [X] kent/INFRA-654_step5_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/934][PR 934]]
+- [X] kent/INFRA-654_step6_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/935][PR 935]]
+- [X] kent/INFRA-654_step7_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/936][PR 936]]
+- [X] kent/INFRA-654_step8_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/937][PR 937]]
+- [X] kent/INFRA-654_step9_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/938][PR 938]]
+- [X] kent/INFRA-654_step10_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/939][PR 939]]
+- [X] kent/INFRA-675_add_logging_for_dd - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/933][PR 933]]
+- [X] kent/improve_migrations - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/940][PR 940]]
+- [X] kent/rm_report_issue - [[https://github.com/Valdera-Inc/valdera-internal/pull/361][PR 361]]
+- [X] kent/INFRA-682_refactor_for_timestamp_fix - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/941][PR 941]]
+- [X] kent/INFRA-682_create_timestamp_utils - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/942][PR 942]]
+- [X] kent/INFRA-682_fix_quote_timestamps - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/943][PR 943]]
+- [X] kent/INFRA-682_cleanup_before_adding_access - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/944][PR 944]]
+- [X] kent/INFRA-682_create_migration - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/922][PR 922]]
+- [X] kent/INFRA-682_cleanup_quote_meta - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/932][PR 932]]
+- [X] kent/BUGS-263_fix_p0 - [[https://github.com/Valdera-Inc/valdera-web/pull/2026][PR 2206]]
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/INFRA-682_prep_for_access - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/945][PR 945]]
+- [ ] kent/INFRA-682_dal_for_removal - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/946][PR 946]]
+- [ ] kent/INFRA-682_update_quote_inbox_access_change - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/947][PR 947]]
+- [ ] kent/log_request_inbox_on_complete - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/948][PR 948]]
+
+* Work in Progress
+- [ ] kent/quick_request_cleanup_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/1999][PR 1999]]
+- [ ]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+Quote Testing - For requestId BvzfhvWKqANmaUpYsj7q
+o0NKCK0a7B3H67cknoWM - Madison Wisconsin (in counteroffer) - supplier 2
+5tYfPU0h1mPvkAeEigH6 - can deliver - supplier 2
+MDLGCWZvZcHwD1s64gc5 - can deliver - supplier 3
+z5aZ6FQ4NYXeL5WQppKh - Pier 39 Oakland - supplier 4
+g6hY95CUadZSGiFD3ffK - Oakland Transit Yard (in counteroffer) - supplier 4
+XLvDRu5YTiO0bFLWAxj1 - can deliver - supplier 1
+
+
+declined quote UCruptaeUeNT909Bz6nu
+accepted quote MiHAvui9fxV6hSuVz0xq
+
+CreatedAt for dBYY3MiDW3mhKMWolcHb
+1687462096
+
+"functions:notifications-onSampleRequestNegotiationDispositionUpdate,functions:api-getQuoteIdsForRequests,functions:api-getRequests,functions:api-getGlobalConstants,functions:api-getOrganizations,functions:api-getOrganizationById,functions:api-getInvitedMembersProfiles,functions:api-getOrgMembersProfiles,functions:api-getAssignedRequestIdsForOrg,functions:api-getRequestIdsAuthoredByOrg,functions:api-healthCheck,functions:api-addSalesforceStatusToRequest,functions:api-createDummyOrganizationAndQuote,functions:api-assignRequestToSupplierOrgs,functions:onCall-rebuildQuoteInboxForRequestId"
+
+
+0LHWnuuZoc6ddrbe2jrF
+1674564353 670000000
+2023-01-24T12:45:53.670Z
+
+
+Avg of buyerReportGenDuration (@buyerReportGenDuration)
+
+
+
+admin+tac@valdera.com
+tac2023!
+
+admin+metito@valdera.com
+metito2022

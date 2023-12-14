@@ -1,0 +1,74 @@
+#+TITLE: Work for the week of 2023-07-03
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+- [X] Read up on iFrames and CSP to get Intercomm working
+
+* Learning
+
+* PR merged
++ [X] kent/BUGS-60_add_headers_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1865][PR 1865]]
++ [X] kent/BUGS-60_add_headers_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/1866][PR 1866]]
++ [X] kent/INFRA-350_final_files - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/828][PR 828]]
++ [X] kent/BUGS-60_add_headers_3 - [[https://github.com/Valdera-Inc/valdera-web/pull/1867][PR 1867]]
++ [X] kent/INFRA-656_apply_firebaseadmin_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/829][PR 829]]
++ [X] kent/INFRA-656_apply_firebaseadmin_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/830][PR 830]]
++ [X] kent/INFRA-656_apply_firebaseadmin_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/831][PR 831]]
++ [X] kent/INFRA-665_created_stored_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/832][PR 832]]
++ [X] kent/INFRA-658_convert_get_id - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/833][PR 833]]
++ [X] kent/INFRA-658_GET_IDS_FROM_SNAP_DOCS_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/834][PR 834]]
++ [X] kent/add_logging_request_dal - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/841][PR 841]]
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-658_GET_SNAP_DATA_types_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/835][PR 835]]
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [ ] kent/INFRA-658_GET_SNAP_DATA_types_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/840][PR 840]]
+- [ ] kent/INFRA-658_GET_SNAP_DATA_types_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/842][PR 842]]
+- [ ] kent/INFRA-658_GET_SNAP_DATA_NON_NULL - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/845][PR 845]]
+
+* Work in Progress
+- [ ] kent/INFRA-665_1_use_stored_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/837][PR 837]]
+- [ ] kent/INFRA-664_cleanup_orgDispositions - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/843][PR 843]]
+- [ ] kent/consolidate_productRequestAccess - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/844][PR 844]]
+- [ ] kent/INFRA-622_remove_requires - [[https://github.com/Valdera-Inc/internal-backend/pull/346][PR 346]]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+http://localhost:3000/buyer/requests/O6CvKDpbQwtprOgzCzRo/quotes/p7qqOxWyzXZAPbf9n0qd
+
+
+INFRA-656: Finish applyin FirebaseAdmin type
+
+Applied the FirebaseAdmin type to the remaining files.
+
+https://valdera.atlassian.net/browse/INFRA-664

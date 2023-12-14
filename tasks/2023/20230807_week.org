@@ -1,0 +1,118 @@
+#+TITLE: Work for the week of 2023-08-07
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [X] kent/move_error_function - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/872][PR 872]]
+- [X] kent/INFRA-675_populateQuotes_off - [[https://github.com/Valdera-Inc/valdera-web/pull/1963][PR 1963]]
+- [X] kent/INFRA-682_move_create_to_separate_func_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/877][PR 877]]
+- [X] kent/INFRA-682_move_create_to_separate_func_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/879][PR 879]]
+- [X] kent/INFRA-682_move_create_to_separate_func_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/880][PR 880]]
+- [X] kent/INFRA-682_move_create_to_separate_func_4 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/882][PR 882]]
+- [X] kent/query_buyer_inbox - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/873][PR 873]]
+- [ ] kent/api_buyer_inbox - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/874][PR 874]]
+- [X] kent/APP-2029_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/887][PR 887]]
+- [X] kent/APP-2199_use_buyer_only - [[https://github.com/Valdera-Inc/valdera-web/pull/1994][PR 1994]]
+- [ ] kent/APP-2206_completed_quotes_only - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/894][PR 894]]
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/APP-2029_add_auth_test - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/888][PR 888]]
+- [ ] kent/APP-2029_fix_user_add_for_member - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/889][PR 889]]
+- [ ] kent/APP-2206_completed_quote_refs - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/895][PR 895]]
+- [ ] kent/APP-2206_types_for_populate - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/896][PR 896]]
+- [ ] kent/APP-2206_add_admin_to_create - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/897][PR 897]]
+- [ ] kent/APP-2206_test_populateQuoteFromRef - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/898][PR 898]]
+- [ ] kent/APP-2206_fix_timestamp_return - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/899][PR 899]]
+- [ ] kent/APP-2206_fix_missing_quote_id - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/900][PR 900]]
+- [ ]
+
+* Work in Progress
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/quick_request_cleanup_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1998][PR 1998]]
+- [ ] kent/quick_request_cleanup_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/1999][PR 1999]]
+- [ ]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+Quote Testing - For requestId BvzfhvWKqANmaUpYsj7q
+o0NKCK0a7B3H67cknoWM - Madison Wisconsin (in counteroffer) - supplier 2
+5tYfPU0h1mPvkAeEigH6 - can deliver - supplier 2
+MDLGCWZvZcHwD1s64gc5 - can deliver - supplier 3
+z5aZ6FQ4NYXeL5WQppKh - Pier 39 Oakland - supplier 4
+g6hY95CUadZSGiFD3ffK - Oakland Transit Yard (in counteroffer) - supplier 4
+XLvDRu5YTiO0bFLWAxj1 - can deliver - supplier 1
+
+
+Dev Request with multiple quotes cGTEQvFeYrrnEjIJE8WO
+Quotes:
+  1vXvKGeH43VVUEMt0z28 --> orgDisposition
+  6Dthcru7HMwpFGFSJBZV
+  mZ023xb6NhWwOKChFiU0 --> Declined
+  rrqlqa0V8mOuePiqichM
+  sW3TGL5AexCb3V7miKze
+
+
+INFRA-654: Convert tests from Javascript to TypeScript - Step 4
+
+Convert tests so we are consistent in our code.
+
+https://valdera.atlassian.net/browse/INFRA-654
+
+
+q2UqgKteqtIztv4sdIP5 org
+User 2TeCfQWoDITiJ5p50iumMKuRk332
+
+
+quotes
+geZLsAxUNhlm4DvnGgUk
+XWtRI7dtoZfugbEZHAQq
+O0qH1ZmxZxOL0iK2bkr5
+
+
+https://app.valdera.com/supplier/requests/ABIDaFB4bKHsFmtCnXph/quotes
+
+
+kROwfNkVzU8XSarDfIAH
+
+
+import { Timestamp } from "@google-cloud/firestore";
+function convertTimestamp({ seconds, nanoseconds }: Timestamp) {
+  return {
+    seconds,
+    nanoseconds,
+  };
+}

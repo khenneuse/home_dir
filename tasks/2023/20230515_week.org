@@ -1,0 +1,75 @@
+#+TITLE: Work for the week of 2023-05-15
+
+* Completed
+
+* To Do Items
+- [ ] Make quote.casNumbers.checked and .value optional or allow both shapes
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+* Learning
+
+
+* PR merged
+- [X] kent/INFRA-27_StaticRequestPanelView_use_supplier_request - [[https://github.com/Valdera-Inc/valdera-web/pull/1671][PR 1671]]
+- [X] kent/RFD-1655_add_supplierPreferences - [[https://github.com/Valdera-Inc/valdera-web/pull/1654][PR 1654]]
+- [X] kent/RFD-1655_add_supplier_pref_checked - [[https://github.com/Valdera-Inc/valdera-web/pull/1655][PR 1655]]
+- [X] kent/INFRA-299_add_defaulting_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/694][PR 694]]
+
+* PRs in final review
+- [ ] kent/INFRA-299_add_defaulting_mostUpToDateRequest - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/701][PR 701]]
+- [ ] kent/INFRA-299_add_defaulting_currentPriceToBeat - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/702][PR 702]]
+- [ ] kent/INFRA-300_add_defaulting_certifications - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/703][PR 703]]
+- [ ] kent/INFRA-300_add_defaulting_arrays - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/704][PR 704]]
+
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] INFRA-305_migration_to_remove_old_migrations - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/690][PR 690]]
+- [ ] kent/INFRA-299_add_defaulting_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/695][PR 695]]
+- [ ] kent/INFRA-299_add_defaulting_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/696][PR 696]]
+- [ ] kent/INFRA-299_add_defaulting_4 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/699][PR 699]]
+- [ ] kent/INFRA-299_add_defaulting_supplierPrefs - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/700][PR 700]]
+- [ ] kent/implement_ld_client - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/709][PR 709]]
+- [ ] kent/add_integration_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/710][PR 710]]
+- [ ] kent/INFRA-300_deleteProductRequestById_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/716][PR 716]]
+- [ ] kent/INFRA-300_deleteProductRequestById_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/717][PR 717]]
+
+* Work in Progress
+- [ ] kent/INFRA-300_createProductRequest - PR 718
+
+
+- [ ] ~/tmp/StaticRequestPageView.patch to hand INFRA-29 add attachments and existingSpecificationsDocuments
+- [ ] kent/RFD-1662_require_some_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1660][PR 1660]]
+- [ ] kent/RFD-1655_base_request_meta_hse - [[https://github.com/Valdera-Inc/valdera-web/pull/1665][PR 1665]]
+
+Needs a fix on the look up of the requestId from the inbox back to the
+full request
+- [ ] kent/fix_error_with_draft_button_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1686][PR 1686]]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+http://localhost:3000/buyer/requests/O6CvKDpbQwtprOgzCzRo/quotes/p7qqOxWyzXZAPbf9n0qd

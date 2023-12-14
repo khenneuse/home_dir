@@ -1,0 +1,55 @@
+#+TITLE: Work for the week of 2023-04-24
+
+* Completed
+
+* To Do Items
+- [ ]
+
+* Learning
+
+
+* PR merged
+- [X] Add casNumbers to quote prop type and default - [[https://github.com/Valdera-Inc/valdera-web/pull/1642][PR 1642]]
+- [X] kent/RFD-1655_add_unloading_capabilities - [[https://github.com/Valdera-Inc/valdera-web/pull/1634][PR 1634]]
+- [X] kent/RFD-1769_increase_machine - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/663][PR 663]]
+- [X] kent/enable_clear_mocks - [[https://github.com/Valdera-Inc/valdera-internal/pull/267][PR 267]]
+- [X] kent/RFD-1655_move_to_shared_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1646][PR 1646]]
+- [X] kent/1655_make_fields_required_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1635][PR 1635]]
+
+* PRs in final review
+- [ ] kent/RFD-1655_add_anon_addresses - [[https://github.com/Valdera-Inc/valdera-web/pull/1649][PR 1649]]
+- [ ] kent/RFD-1655_add_top_level_meta - [[https://github.com/Valdera-Inc/valdera-web/pull/1650][PR 1650]]
+- [ ] kent/RFD-1655_add_meta_booleans - [[https://github.com/Valdera-Inc/valdera-web/pull/1651][PR 1651]]
+- [ ] kent/RFD-1655_require_certifications - [[https://github.com/Valdera-Inc/valdera-web/pull/1652][PR 1652]]
+- [ ] kent/rm_old_cloudbuild_files - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/658][PR 658]]
+- [ ] kent/RFD-1217_remove_unused_files - [[https://github.com/Valdera-Inc/valdera-internal/pull/258][PR 258]]
+
+
+* PRs in review
+- [ ] kent/RFD-1217_create_apiGetFullValderaRequest - [[https://github.com/Valdera-Inc/valdera-internal/pull/259][PR 259]]
+- [ ] kent/RFD-1217_create_apiGetAssignedRequestIdsByValderaOrgId - [[https://github.com/Valdera-Inc/valdera-internal/pull/260][PR 260]]
+- [ ] kent/RFD-1217_create_apiGetCmpOrgByIdAndRequestId - [[https://github.com/Valdera-Inc/valdera-internal/pull/261][PR 261]]
+- [ ] kent/RFD-1217_test_getActiveRequests - [[https://github.com/Valdera-Inc/valdera-internal/pull/262][PR 262]]
+- [ ] kent/add_tests_for_addresses - [[https://github.com/Valdera-Inc/valdera-web/pull/1653][PR 1653]]
+- [ ] kent/RFD-1655_add_supplierPreferences - [[https://github.com/Valdera-Inc/valdera-web/pull/1654][PR 1654]]
+- [ ] kent/RFD-1655_add_supplier_pref_checked - [[https://github.com/Valdera-Inc/valdera-web/pull/1655][PR 1655]]
+- [ ] kent/add_tests_negotiation - [[https://github.com/Valdera-Inc/valdera-web/pull/1656][PR 1656]]
+- [ ] kent/RFD-1655_add_documents_to_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1657][PR 1657]]
+- [ ] kent/RFD-1655_add_multiple_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1658][PR 1658]]
+- [ ] kent/RFD-1662_add_strings_and_booleans - [[https://github.com/Valdera-Inc/valdera-web/pull/1659][PR 1659]]
+- [ ]
+
+
+
+* Work in Progress
+- [ ]
+
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Completed 3DAft3fRsiXoDNSSj6LO
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4

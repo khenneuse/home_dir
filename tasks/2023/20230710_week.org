@@ -1,0 +1,75 @@
+#+TITLE: Work for the week of 2023-07-10
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+* Learning
+
+* PR merged
+- [X] kent/INFRA-622_remove_requires - [[https://github.com/Valdera-Inc/internal-backend/pull/346][PR 346]]
+- [X] kent/INFRA-658_GET_SNAP_DATA_NON_NULL - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/845][PR 845]]
+- [X] kent/INFRA-675_rename_searchQuotes - [[https://github.com/Valdera-Inc/valdera-web/pull/1883][PR 1883]]
+- [X] kent/INFRA-675_cleanup_fetchQuotes_some - [[https://github.com/Valdera-Inc/valdera-web/pull/1885][PR 1885]]
+- [X] kent/INFRA-675_reduce_test_data - [[https://github.com/Valdera-Inc/valdera-web/pull/1895][PR 1895]]
+- [X] kent/INFRA-675_add_starred_archived - [[https://github.com/Valdera-Inc/valdera-web/pull/1896][PR 1896]]
+- [X] kent/INFRA-664_cleanup_orgDispositions - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/843][PR 843]]
+- [X] kent/consolidate_productRequestAccess - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/844][PR 844]]
+- [X] kent/INFRA-658_GET_SNAP_DATA_types_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/835][PR 835]]
+- [X] kent/INFRA-658_GET_SNAP_DATA_types_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/840][PR 840]]
+- [ ] kent/INFRA-658_GET_SNAP_DATA_types_3 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/842][PR 842]]
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [X] kent/INFRA-654_step1_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/846][PR 846]]
+- [X] kent/INFRA-654_step2_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/847][PR 847]]
+- [X] kent/fixup_collaborators_test - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/849][PR 849]]
+
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-665_1_use_stored_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/837][PR 837]]
+- [ ] kent/INFRA-675_implement_searchQuotes - [[https://github.com/Valdera-Inc/valdera-web/pull/1900][PR 1900]]
+- [ ] kent/INFRA-675_use_searchQuotes - [[https://github.com/Valdera-Inc/valdera-web/pull/1902][PR 1902]]
+- [ ] kent/INFRA-675_flag_use_inbox_quotes - [[https://github.com/Valdera-Inc/valdera-web/pull/1921][PR 1921]]
+
+* Work in Progress
+- [ ] kent/INFRA-654_step3_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/848][PR 848]]
+- [ ] kent/INFRA-654_step4_convert_tests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/850][PR 850]]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+http://localhost:3000/buyer/requests/O6CvKDpbQwtprOgzCzRo/quotes/p7qqOxWyzXZAPbf9n0qd
+
+
+INFRA-654: Convert tests from Javascript to TypeScript - Step 4
+
+Convert tests so we are consistent in our code.
+
+https://valdera.atlassian.net/browse/INFRA-654

@@ -1,0 +1,95 @@
+#+TITLE: Work for the week of 2023-04-24
+
+* Completed
+
+* To Do Items
+- [X] Make BuyerCell value optional
+- [ ] Make quote.casNumbers.checked and .value optional or allow both shapes
+- [X] Remove shape from QuoteQuickUploadForm
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [X] Fix notifications in pages/public/quotes/[quoteId]/index.js
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+* Learning
+
+
+* PR merged
+- [X] kent/RFD-1217_create_apiGetFullValderaRequest - [[https://github.com/Valdera-Inc/valdera-internal/pull/259][PR 259]]
+- [X] kent/RFD-1655_add_top_level_meta - [[https://github.com/Valdera-Inc/valdera-web/pull/1650][PR 1650]]
+- [X] kent/rm_old_cloudbuild_files - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/658][PR 658]]
+- [X] kent/RFD-1655_add_anon_addresses - [[https://github.com/Valdera-Inc/valdera-web/pull/1649][PR 1649]]
+- [X] kent/RFD-1655_add_meta_booleans - [[https://github.com/Valdera-Inc/valdera-web/pull/1651][PR 1651]]
+- [X] kent/RFD-1812_make_link_work - [[https://github.com/Valdera-Inc/valdera-internal/pull/277][PR 277]]
+- [X] kent/RFD-1217_remove_unused_files - [[https://github.com/Valdera-Inc/valdera-internal/pull/258][PR 258]]
+- [X] kent/RFD-1655_require_certifications - [[https://github.com/Valdera-Inc/valdera-web/pull/1652][PR 1652]]
+- [X] kent/add_tests_negotiation - [[https://github.com/Valdera-Inc/valdera-web/pull/1656][PR 1656]]
+- [X] kent/RFD-1662_add_strings_and_booleans - [[https://github.com/Valdera-Inc/valdera-web/pull/1659][PR 1659]]
+- [X] kent/remove_invalid_service_key - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/670][PR 670]]
+- [X] kent/RFD-1217_create_apiGetAssignedRequestIdsByValderaOrgId - [[https://github.com/Valdera-Inc/valdera-internal/pull/260][PR 260]]
+- [X] kent/RFD-1217_create_apiGetCmpOrgByIdAndRequestId - [[https://github.com/Valdera-Inc/valdera-internal/pull/261][PR 261]]
+- [X] kent/RFD-1217_test_getActiveRequests - [[https://github.com/Valdera-Inc/valdera-internal/pull/262][PR 262]]
+- [X] kent/RFD-1655_add_multiple_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1658][PR 1658]]
+- [X] kent/add_tests_for_addresses - [[https://github.com/Valdera-Inc/valdera-web/pull/1653][PR 1653]]
+- [X] kent/clean_up_gitignore - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/676][PR 676]]
+
+* PRs in final review
+- [ ] kent/RFD-1655_add_documents_to_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1657][PR 1657]]
+
+
+* PRs in review
+- [ ] kent/INFRA-25_cleanup_inbox_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1667][PR 1667]]
+- [ ] kent/INFRA-27_StaticRequestPageView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1668][PR 1668]]
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-27_StaticRequestPanelView_add_supplier_request - [[https://github.com/Valdera-Inc/valdera-web/pull/1670][PR 1670]]
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request - [[https://github.com/Valdera-Inc/valdera-web/pull/1671][PR 1671]]
+- [ ] kent/fix_buyer_cell_prop - [[https://github.com/Valdera-Inc/valdera-web/pull/1672][PR 1672]]
+- [ ] kent/fix_notifications - [[https://github.com/Valdera-Inc/valdera-web/pull/1673][PR 1673]]
+- [ ] kent/INFRA-21_remove_shape_on_quote - [[https://github.com/Valdera-Inc/valdera-web/pull/1674][PR 1674]]
+- [ ] kent/INFRA-29_create_file_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1675][PR 1675]]
+- [ ] kent/fix_prop_UpdateRequestPage - [[https://github.com/Valdera-Inc/valdera-web/pull/1676][PR 1676]]
+- [ ] kent/INFRA-29_QuoteComparisonTable - [[https://github.com/Valdera-Inc/valdera-web/pull/1677][PR 1677]]
+- [ ] kent/INFRA-309_cleanup_populateRequestAttachments_missing - [[https://github.com/Valdera-Inc/valdera-web/pull/1678][PR 1678]]
+
+
+
+* Work in Progress
+- [ ] ~/tmp/StaticRequestPageView.patch to hand INFRA-29 add attachments and existingSpecificationsDocuments
+- [ ] kent/RFD-1655_add_supplierPreferences - [[https://github.com/Valdera-Inc/valdera-web/pull/1654][PR 1654]]
+- [ ] kent/RFD-1655_add_supplier_pref_checked - [[https://github.com/Valdera-Inc/valdera-web/pull/1655][PR 1655]]
+- [ ] kent/RFD-1662_require_some_props - [[https://github.com/Valdera-Inc/valdera-web/pull/1660][PR 1660]]
+- [ ] kent/RFD-1655_base_request_meta_hse - [[https://github.com/Valdera-Inc/valdera-web/pull/1665][PR 1665]]
+
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+http://localhost:3000/buyer/requests/O6CvKDpbQwtprOgzCzRo/quotes/p7qqOxWyzXZAPbf9n0qd
+
+
+
+Pulcra chemicals
+Search 3QigDf8LolvfGGhLgaEg
+
+Good CmpOrgId  6663KUVz2H9hzhjztDs5
+Bad  CmpOrgId  Zzv7GCknLKdoG38MpRJo
+
+SF Account 0018V00002cwPJbQAM
+
+Supplier Ids
+Good   69cf9805-9377-4869-bdac-a22e32d582d5
+Bad    bfb7ce07-8fb5-401b-b3f5-aba399eb7375

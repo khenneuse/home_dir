@@ -1,0 +1,73 @@
+#+TITLE: Work for the week of 2023-01-02
+
+* Completed
+- Got Salesforce integration started and handed off to Nikita
+- Met with Salesforce to learn about using a single organization
+- Filled in the document about the Salesforce integration
+- Started learning about the User Profiles, Permission Sets, and the
+  Record Types in Salesforce
+- Built the establishConnection function for the Salesforce work
+
+* To Do Items
+- [ ] Upgrade Firebase
+- [ ] Upgrade Next.js
+- [ ] Add tests git diff staging..dev -- src/forms/SupplierQuoteForm/validator.js
+- [ ] Investigate user permissions for Firebase so it is not single user
+- [ ] Write tests for this [[https://github.com/Valdera-Inc/valdera-web/pull/1373][PR]]
+- [ ] Look at how to transition tickets from one project to another in Jira
+- [ ] See if there is a mock router for the React
+
+* Learning
+- [ ] Learn about Retool
+- [ ] Learn about React Final Form
+- [ ] Learn Algolia
+- [ ] Learn Common Module export and require
+- [ ] Learn Firebase Emulator
+
+  Lots of details in this ticket about setup of Salesforce
+  https://valdera.atlassian.net/browse/RFD-227
+
+* On-boarding doc updates
+** Firebase Permissions
+** Login Setup Buyer/Supplier walk through
+** Make yourself an admin admin.dev.valdera.com
+** Login to Figma and get an account from Susy
+** brew install gh
+*** Firebase
+** TODO brew install java - Needed by firebase emulator
+
+* For Discusion
+- [ ] Verify that thin font is actually lighter
+- [ ] h2 use of thin in src/components/presentational/StaticQuoteView/Section.js
+- [ ] do we remove styles.italic and styles.thin from the components scss file?
+
+  Find the one thin and take screenshot for Susy
+  split out each of the styles using a italic-thin approach
+  QA the first entries locally and learn to find the components in the UI
+
+* PR merged
+- [ ]
+
+* PRs in review
+
+* Work in Progress
+- [ ] fix/sticky_quote_comparison - [[https://github.com/Valdera-Inc/valdera-web/pull/1169][PR 1169]]
+
+
+gcloud functions deploy
+
+Once we have SF setup
+* Build and upload CSV files
+* Install SF plugin to GMail for ops users
+
+Create Quote in SF
+Assign accounts to a qoute
+
+Create opportunity in SF with buyer account attached
+
+
+RFD-104: Finish up auth conversion
+
+After a bit of looking it appears that what is need to be passed into
+the getAuth call is the app and not the client. There was only one
+instance that did not like the call enter

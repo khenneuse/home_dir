@@ -1,0 +1,16 @@
+Python
+  Call an API parse paged results
+  map, filter, reduce, lambda
+  lists versus arrays
+
+React
+  Build a customer list and filter the list based on input
+  Build a Credit Card form and do validation
+
+
+Angular
+  Build a customer list and filter the list based on input
+  Service and stuff
+
+Java Spring
+  Build a simple database application with REST endpoints

@@ -1,0 +1,85 @@
+#+TITLE: Work for the week of 2023-10-23
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+- [ ] Look at the require-trusted-types-for 'script' CSP again
+
+* Learning
+
+* PR merged
+- [ ] kent/INFRA-665_create_buyer_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/838][PR 838]]
+- [ ] kent/INFRA-664_cleanup_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/839][PR 839]]
+- [ ] kent/api_buyer_inbox - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/874][PR 874]]
+- [X] kent/APP-1086_rename_function - [[https://github.com/Valdera-Inc/valdera-web/pull/2173][PR 2173]]
+- [X] kent/APP-1086_add_sizes - [[https://github.com/Valdera-Inc/valdera-web/pull/2175][PR 2175]]
+- [X] kent/INFRA-983_add_org_to_ld - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1040][PR 1040]]
+- [X] kent/INFRA-983_add_flag - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1041][PR 1041]]
+- [X] kent/INFRA-983_rm_inbox_flag - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1042][PR 1042]]
+- [X] kent/INFRA-983_test_clean_up - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1048][PR 1048]]
+- [X] kent/INFRA-983_scrub_refs_tds - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1049][PR 1049]]
+- [X] kent/INFRA-983_scrub_more_refs - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1050][PR 1050]]
+- [ ] kent/INFRA-983_scrub_more_refs_2 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1051][PR 1051]]
+- [X] kent/INFRA-983_move_createUser - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1056][PR 1056]]
+- [X] kent/APP-2291_deploy_save_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1065][PR 1065]]
+- [X] kent/BUGS-349_allow_null_transportation - [[https://github.com/Valdera-Inc/valdera-web/pull/2191][PR 2191]]
+
+* PRs in review
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+- [ ] kent/INFRA-682_add_types - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/891][PR 891]]
+- [ ] kent/set_createdAt_correctly_on_request - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/958][PR 958]]
+- [ ] kent/INFRA-983_move_functions - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1058][PR 1058]]
+- [ ] kent/INFRA-983_rm_profile_from_documents - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1059][PR 1059]]
+
+
+- [ ] kent/APP-2279_rm_trigger - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/996][PR 996]]
+- [ ] kent/APP-2279_rm_feature_flag - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/999][PR 999]]
+- [ ] kent/APP-2279_cleanup - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/1000][PR 1000]]
+
+
+
+* Work in Progress
+- [ ] kent/quick_request_cleanup_2 - [[https://github.com/Valdera-Inc/valdera-web/pull/1999][PR 1999]]
+- [ ]
+
+
+* Branches to remove
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ]
+
+
+Log in to https://valdera.lightning.force.com/
+This will trigger that an update of the password is needed.
+Last Pass has a password generator tool
+https://www.lastpass.com/features/password-generator
+You will want to set it for:
+* Password Length 20
+* Uppercase
+* Lowercase
+* Numbers
+
+DO NOT set the symbols. Some symbols break the login as they are not escaped
+correctly and cause problems on the command line
+
+Make sure to copy password as you will need it for other steps
+
+After putting the password into the two spots, you will be logged in to SF
+This will generate an email that will be sent to salesforce-prod@valdera.com
+google group. In that message you will be given a security token
+
+With these two pieces of data you can update the functions to call SF
+
+First open up the `internal-backend` git project locally
+Run `firebase use prod`
+Next run `firebase functions:secrets:set SF_PASSWORD`
+When prompted, copy the password that you generated with Last Pass
+This will take time to update
+
+Next run `firebase functions:secrets:set SF_SECURITY_TOKEN`
+When prompted, copy the value that was taken from the email that was sent to
+salesforce-prod@valdera.com
+This will take time to update

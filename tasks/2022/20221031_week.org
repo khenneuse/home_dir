@@ -1,0 +1,54 @@
+#+TITLE: Work for the week of 2022-10-31
+
+* To Do Items
+- [X] Setup Github and get logged in
+- [X] Commit a PR
+- [X] Learn about SCSS/SASS
+- [ ] Learn about Retool
+- [ ] Upgrade Firebase
+- [ ] Upgrade Next.js
+- [X] Fix tab completion with git commands
+- [X] Create tampermonkey script for PR output
+- [X] QA the H2 build
+- [X] QA the H3 build
+- [ ] Do a clean up pass of imports after all headers changed
+- [ ] Write tests for the Current Pricing changes.
+
+
+* For Discusion
+- [ ] Verify that thin font is actually lighter
+- [ ] h2 use of thin in src/components/presentational/StaticQuoteView/Section.js
+- [ ] do we remove styles.italic and styles.thin from the components scss file?
+
+  Find the one thin and take screenshot for Susy
+  split out each of the styles using a italic-thin approach
+  QA the first entries locally and learn to find the components in the UI
+
+* PR merged
+- [X] fix/camel-case-className - [[https://github.com/Valdera-Inc/valdera-web/pull/1140][PR 1140]]
+- [X] fix/add-font-index - [[https://github.com/Valdera-Inc/valdera-web/pull/1142][PR 1142]]
+- [X] feat/componentize-h2-tags - [[https://github.com/Valdera-Inc/valdera-web/pull/1143][PR 1143]]
+- [X] feat/componentize-h3-tags - [[https://github.com/Valdera-Inc/valdera-web/pull/1145][PR 1145]]
+- [X] fix/circular_dependency_prices - [[https://github.com/Valdera-Inc/valdera-web/pull/1149][PR 1149]]
+- [X] fix/target_pricing_text - [[https://github.com/Valdera-Inc/valdera-web/pull/1156][PR 1156]]
+- [X] feat/componentize-h4-tags - [[https://github.com/Valdera-Inc/valdera-web/pull/1150][PR 1150]]
+- [X] feat/componentize-h5-tags - [[https://github.com/Valdera-Inc/valdera-web/pull/1151][PR 1151]]
+
+* PRs in review
+- [ ]
+
+* Work in Progress
+- [ ]
+
+
+[dev] H5 Text Style Updates
+
+Move the h5 HTML tags into a component. This will allow us to make
+changes in a single location for more general changes to the tag. This
+also allows for conditional formatting of the text based on the style
+attribute. This is only for italics currently.
+
+H5 component leverages the text-style-h5 style defined with SCSS
+
+Ticket Link
+https://www.notion.so/valdera/7c6dc8e78f1646dba5cbd0e7aba82819?v=8bd10af314444b70bff700112ab47970&p=c818686143164bc5bc8d91e7e7323be5&pm=s

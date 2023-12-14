@@ -1,0 +1,65 @@
+#+TITLE: Work for the week of 2022-11-21
+
+* To Do Items
+- [ ] Learn about Retool
+- [ ] Learn about React Final Form
+- [ ] Learn Algolia
+- [X] Learn Netlify
+- [ ] Learn Common Module export and require
+- [ ] Learn Firebase Emulator
+- [X] Learn Firebase (set { merge: true })
+- [ ] Upgrade Firebase
+- [ ] Upgrade Next.js
+- [ ] Write tests for the Current Pricing changes.
+- [ ] Investigate the password change in staging
+- [ ] Add tests git diff staging..dev -- src/forms/SupplierQuoteForm/validator.js
+- [X] Write a test for the current price language.
+- [ ] Write an SO about the Firebase upgrade
+
+* On-boarding doc updates
+** Firebase Permissions
+** Login Setup Buyer/Supplier walk through
+** Make yourself an admin admin.dev.valdera.com
+** Login to Figma and get an account from Susy
+** brew install gh
+** VS Code extenstions
+*** Firebase
+*** TODO Editor Config
+*** TODO Code Spell
+*** TODO Git Lens
+** dev.valdera.com -> localhost:3000
+** TODO brew install java - Needed by firebase emulator
+
+* For Discusion
+- [ ] Verify that thin font is actually lighter
+- [ ] h2 use of thin in src/components/presentational/StaticQuoteView/Section.js
+- [ ] do we remove styles.italic and styles.thin from the components scss file?
+
+  Find the one thin and take screenshot for Susy
+  split out each of the styles using a italic-thin approach
+  QA the first entries locally and learn to find the components in the UI
+
+* PR merged
+- [ ]
+
+* PRs in review
+- [ ] fix/rm_productRequests_rule - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/414][PR 414]]
+
+* Work in Progress
+- [ ] fix/sticky_quote_comparison - [[https://github.com/Valdera-Inc/valdera-web/pull/1169][PR 1169]]
+- [ ] feat/api_key_for_supplier_search - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/433][PR 433]]
+
+
+gcloud functions deploy
+
+npm run reader -- --collection=organizations --servicekey=~/.ssh/development-8a179-firebase-adminsdk-x04wd-08656ba4c9.json
+
+deploy --project=development-8a179 --only=functions:dataPipeline-searchSuppliersOnNewRequest
+
+Sourcing Process meeting notes for Engineering:
+* Resiliancy in the system in case the email does not go through
+* Geography appears to be a higher priority item, seen with Meteto
+* Build in some way to populate the Notion doc for Ops
+* If the suppliers will not click a link, how do we bring them into the
+  process
+*

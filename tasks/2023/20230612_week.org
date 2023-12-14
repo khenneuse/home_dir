@@ -1,0 +1,99 @@
+#+TITLE: Work for the week of 2023-06-12
+
+* Completed
+
+* To Do Items
+- [ ] Fix valuesRef on SupplierQuoteForm
+- [ ] Determine if ModifiableProperty can be deleted
+- [ ] Fix typo of inital instead of initial
+
+* Learning
+
+- [X] kent/convert_to_ts - [[https://github.com/Valdera-Inc/internal-backend/pull/285][PR 285]]
+- [X] kent/INFRA-320_build_one_flow_as_ts - [[https://github.com/Valdera-Inc/internal-backend/pull/287][PR 287]]
+
+* PR merged
+- [X] kent/INFRA-320_use_account_string_union - [[https://github.com/Valdera-Inc/internal-backend/pull/317][PR 317]]
+- [X] kent/refactor_queryByParentCmpOrgId_map_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/318][PR 318]]
+- [X] kent/refactor_queryByParentCmpOrgId_map_2 - [[https://github.com/Valdera-Inc/internal-backend/pull/319][PR 319]]
+- [X] kent/refactor_queryByParentCmpOrgId_map_3 - [[https://github.com/Valdera-Inc/internal-backend/pull/320][PR 320]]
+- [X] kent/INFRA-320_move_integration_tests - [[https://github.com/Valdera-Inc/internal-backend/pull/321][PR 321]]
+- [X] kent/INFRA-320_move_tests_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/322][PR 322]]
+- [X] kent/INFRA-320_move_tests_2 - [[https://github.com/Valdera-Inc/internal-backend/pull/323][PR 323]]
+- [X] kent/INFRA-320_move_tests_3 - [[https://github.com/Valdera-Inc/internal-backend/pull/324][PR 324]]
+- [X] kent/INFRA-349_update_eslint_prettier - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/751][PR 751]]
+- [X] kent/INFRA-349_arrow_unamed_funcs - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/753][PR 753]]
+- [X] kent/INFRA-622_add_test_for_empty_search - [[https://github.com/Valdera-Inc/internal-backend/pull/325][PR 325]]
+- [X] kent/INFRA-349_add_awaits - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/754][PR 754]]
+- [X] kent/INFRA-622_move_tests_1 - [[https://github.com/Valdera-Inc/internal-backend/pull/326][PR 326]]
+- [X] kent/INFRA-622_move_tests_2 - [[https://github.com/Valdera-Inc/internal-backend/pull/327][PR 327]]
+- [X] kent/INFRA-622_move_tests_3 - [[https://github.com/Valdera-Inc/internal-backend/pull/328][PR 328]]
+- [X] kent/INFRA-622_move_tests_4 - [[https://github.com/Valdera-Inc/internal-backend/pull/329][PR 329]]
+- [X] kent/INFRA-622_move_tests_5 - [[https://github.com/Valdera-Inc/internal-backend/pull/330][PR 330]]
+- [X] kent/INFRA-622_move_tests_6 - [[https://github.com/Valdera-Inc/internal-backend/pull/331][PR 331]]
+- [X] kent/INFRA-622_move_tests_7 - [[https://github.com/Valdera-Inc/internal-backend/pull/332][PR 332]]
+- [X] kent/INFRA-622_add_test_for_null_supplier - [[https://github.com/Valdera-Inc/internal-backend/pull/335][PR 335]]
+- [X] kent/INFRA-320_filter_snaps - [[https://github.com/Valdera-Inc/internal-backend/pull/306][PR 306]]
+- [X] kent/INFRA-349_convert_to_ts - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/752][PR 752]]
+- [X] kent/fix_run_dev - [[https://github.com/Valdera-Inc/valdera-web/pull/1790][PR 1790]]
+- [X] kent/INFRA-631_update_nextjs - [[https://github.com/Valdera-Inc/valdera-internal/pull/301][PR 301]]
+- [X] kent/INFRA-622_move_tests_8 - [[https://github.com/Valdera-Inc/internal-backend/pull/333][PR 333]]
+- [X] kent/INFRA-622_move_tests_9 - [[https://github.com/Valdera-Inc/internal-backend/pull/334][PR 334]]
+- [X] kent/add_nvmrc - [[https://github.com/Valdera-Inc/valdera-internal/pull/302][PR 302]]
+- [ ] kent/INFRA-349_lint_migrations - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/765][PR 765]]
+- [ ] kent/INFRA-350_convert_sample_requests - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/755][PR 755]]
+- [ ] kent/INFRA-350_convert_wikipedia - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/756][PR 756]]
+- [ ] kent/INFRA-350_convert_pubchem - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/757][PR 757]]
+- [ ] kent/INFRA-350_convert_catalogAlgoliaSync - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/758][PR 758]]
+- [ ] kent/mv_batcher - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/759][PR 759]]
+- [ ] kent/rm_doesOrgWithNameExist - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/760][PR 760]]
+- [ ] kent/INFRA-350_convert_utils_1 - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/761][PR 761]]
+- [ ] kent/INFRA-350_convert_userOrgManagement - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/762][PR 762]]
+- [X] kent/upgrade_svgr_react_pdf - [[https://github.com/Valdera-Inc/valdera-web/pull/1794][PR 1794]]
+- [X] kent/20230616_fix_sec_vulns - [[https://github.com/Valdera-Inc/valdera-components/pull/47][PR 47]]
+- [X] kent/INFRA-631_remove_pdf_viewer - [[https://github.com/Valdera-Inc/valdera-internal/pull/303][PR 303]]
+- [ ] kent/INFRA-631_rm_recharts - [[https://github.com/Valdera-Inc/valdera-internal/pull/304][PR 304]]
+- [X] kent/INFRA-640_patch_taffydb - [[https://github.com/Valdera-Inc/internal-backend/pull/336][PR 336]]
+- [X] kent/INFRA-641_apply_fixes - [[https://github.com/Valdera-Inc/integrated-backend-firebase/pull/768][PR 768]]
+- [X] kent/fix_null_unit_handling - [[https://github.com/Valdera-Inc/valdera-web/pull/1797][PR 1797]]
+
+* PRs in review
+- [ ] kent/INFRA-26_StaticQuoteView_1 - [[https://github.com/Valdera-Inc/valdera-web/pull/1669][PR 1669]]
+- [ ] kent/INFRA-29_cleanup_file_prop_type - [[https://github.com/Valdera-Inc/valdera-web/pull/1688][PR 1688]]
+
+* Work in Progress
+- [ ] kent/INFRA-632_update_next_12 - [[https://github.com/Valdera-Inc/valdera-web/pull/1795][PR 1795]]
+- [ ]
+
+
+* Branches to remove
+- [ ] kent/INFRA-299_add_defaulting_1
+- [ ] kent/INFRA-27_StaticRequestPanelView_use_supplier_request
+- [ ] kent/INFRA-27_StaticRequestPageView_1
+
+http://localhost:3000/supplier/quotes/9mQOujbQpKXyyqw8vnz3
+http://localhost:3000/public/quotes/9mQOujbQpKXyyqw8vnz3?viewerPublicToken=QIfdNHLbCJuXytvpobASpNApkKZ7D6ux
+
+Requests
+Draft Name only whkqpg8C6H6qoM1XS56y
+Draft with documents tOmwUK6WExuStpGgBBME
+Draft with all fields 0nQQXvZ2omf5OxE9rBSw
+Completed 3DAft3fRsiXoDNSSj6LO
+Compleded minimal entries jFtIl7NlWREh7CAKriTv
+
+Quotes
+Completed 9mQOujbQpKXyyqw8vnz3
+Draft with no items filled in W96peA5BsEIam0Um77l4
+
+Buyer UID HM1DvoMLgQg0vyKtIlbjvZ04mR22
+
+
+http://localhost:3000/buyer/requests/O6CvKDpbQwtprOgzCzRo/quotes/p7qqOxWyzXZAPbf9n0qd
+
+
+INFRA-622: Move test files to TypeScript - Batch 5
+
+Moving the current tests to be in TypeScript so that we can eventually
+set allowJs to false in tsconfig.json
+
+https://valdera.atlassian.net/browse/INFRA-622

@@ -1,0 +1,17 @@
+#+TITLE: List of distractions
+
+This is a list of things that I could distract myself with as I have
+availability.
+
+* Learning
+- [ ] More about Netlify
+- [ ] Retool
+
+* Systems to setup/investigate
+- [ ] Google API Gateway for api keys removal
+- [ ] Setup for the systems to do testing of the system all locally
+  including the running of functions and the data pipeline
+- [ ] [[https://firebase.google.com/docs/auth/extend-with-blocking-functions?authuser=0&hl=en#only_allowing_registration_from_a_specific_domain][Firebase Auth for domain]]
+
+* Things to develop
+- [ ] A way to test the backend functions against the dev firebase
